@@ -27941,9 +27941,18 @@
 
 	    render: function render() {
 	        return React.createElement(
-	            'h3',
+	            'div',
 	            null,
-	            'Examples child page'
+	            React.createElement(
+	                'h3',
+	                null,
+	                'Examples child page'
+	            ),
+	            React.createElement(
+	                'p',
+	                null,
+	                'Welcome example page'
+	            )
 	        );
 	    }
 	});
